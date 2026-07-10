@@ -71,6 +71,10 @@ Generate report with:
 Block commit if CRITICAL or HIGH issues found.
 Never approve code with security vulnerabilities.
 
+### Phase 4 — SAVE
+
+Write the report to `.claude/reviews/local-<branch>-<YYYY-MM-DD-HHMMSS>.md` (create the directory if it does not exist; use `git branch --show-current` for `<branch>`, falling back to `local` if detached). Confirm the saved path in the final output to the user.
+
 ---
 
 ## PR Review Mode

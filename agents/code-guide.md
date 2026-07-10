@@ -1,5 +1,5 @@
 ---
-name: coding-guide
+name: code-guide
 description: Turns a coding prompt into a complete, codebase-aware implementation guide written to docs/guides/, including full code, decision rationale, alternative approaches with trade-offs, and a configuration reference. Requests explicit approval before writing any source files. Use PROACTIVELY when the user wants a documented, reviewable plan-plus-code before implementation, or a spec to hand to another agent using low-cost model.
 model: opus
 ---
